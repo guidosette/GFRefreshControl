@@ -1,0 +1,6 @@
+framework module GFRefreshControl {
+  umbrella header "GFRefreshControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

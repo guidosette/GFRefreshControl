@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import "GFRefreshControlProtocol.h"
 
-@interface GFViewController : UIViewController
+@interface GFViewController : UIViewController<GFRefreshControlProtocol>
 
 @end

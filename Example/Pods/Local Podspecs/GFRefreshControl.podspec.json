@@ -1,0 +1,27 @@
+{
+  "name": "GFRefreshControl",
+  "version": "0.1.0",
+  "summary": "Custom and customizable refresh control animation for ScrollView and TableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guidosette/GFRefreshControl",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guidosette": "guido.fanfani7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/guidosette/GFRefreshControl.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GFRefreshControl/Classes/**/*",
+  "resource_bundles": {
+    "GFRefreshControl": [
+      "GFRefreshControl/Assets/*.png"
+    ]
+  }
+}

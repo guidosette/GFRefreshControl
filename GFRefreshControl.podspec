@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GFRefreshControl'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Custom and customizable refresh control animation for ScrollView and TableView.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Custom and customizable refresh control animation for ScrollView and TableView.
+You can use your custom image and change backgrounf, image colors.
                        DESC
 
   s.homepage         = 'https://github.com/guidosette/GFRefreshControl'
@@ -32,9 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'GFRefreshControl/Classes/**/*'
   
-	s.resource_bundles = {
-		'GFRefreshControl' => ['GFRefreshControl/Assets/*.png']
-	}
+#	s.resource_bundles = {
+#		'GFRefreshControl' => ['GFRefreshControl/Assets/*.png']
+#	}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -27,7 +27,7 @@
 #pragma mark - GFRefreshControlAnimationViewProtocol
 
 -(UIView*)setupAnimationView {
-    animationView = [[GFMaskImageAnimationColor alloc] initWithImageMask:[UIImage imageNamed:@"test"]
+    animationView = [[GFMaskImageAnimationColor alloc] initWithImageMask:[UIImage new]
                                                      backgroundColor:[UIColor groupTableViewBackgroundColor]
                                                            fillColor:[UIColor greenColor]
                                                         hideWhenStop:false];

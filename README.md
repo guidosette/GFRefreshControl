@@ -7,7 +7,7 @@
 
 ## Example
 
-![Alt Text](https://github.com/guidosette/GFLoadingAnimationView/blob/master/photo.gif)
+![Alt Text](https://github.com/guidosette/GFRefreshControl/blob/master/photo.gif)
 
 Custom and customizable refresh control animation for ScrollView and TableView.
 Custom and customizable refresh control animation for ScrollView and TableView.
